@@ -1,0 +1,30 @@
+{
+  "name": "nuodata-pubsub-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "sh test/before_script.sh",
+    "test": "make test",
+    "posttest": "sh test/after_script.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.3.2",
+    "koa-compose": "^2.5.1",
+    "koa-router": "^5.4.0",
+    "socket.io": "^1.5.1"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.6",
+    "bunyan": "^1.8.4",
+    "chai": "^3.5.0",
+    "chance": "^1.0.4",
+    "koa": "^1.2.4",
+    "mocha": "^3.1.2",
+    "pg-promise": "^5.3.5",
+    "require-main": "^0.1.1",
+    "socket.io-events": "^0.4.6"
+  }
+}
